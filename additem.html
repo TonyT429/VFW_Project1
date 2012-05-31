@@ -35,9 +35,30 @@
 					<ul>
 						<li><label for="btitle">Book Title:</label><input type="text" id="btitle" /></li>
 						<li><label for="author">Author:</label><input type="text" id="author" /></li>
+					</ul>
+				
+					<li>Is This Book Part Of A Series?:
+					<form action="">
+						<li><input type="radio" name="isaseries" checked value="No" id="no /><label for="no">No</label></li>
+						<li><input type="radio" name="isaseries" svalue="Yes" id="yes /><label for="yes">Yes</label></li>
+					</form>
+					</ul>
+						<li><label for="seriesname">Series Name:</label><input type="text" id="seriesname" placeholder="Enter Series name" /></li>
+						<li><label for="seriesnum">Book # in the Series:</label><input type="text" id="seriesnum" placeholder="Enter series number" /></li>
+			</fieldset>
+			
+			<fieldset>
+				<legend> Rate This Book </legend>
+				<ul>
+					Did You Enjoy This Book?:<input type="range" name="points" min="1" max="10" />
+					<li><label for="comments">What's Your Opinion Of This Book?:</label><textarea id="comments"></textarea></li>
+					Date and Time: <input type="datetime" name="bdaytime" />
+				</ul>
+			</fieldset>
+
 
 			
-			<ul>
+			
 		    
 		
 		
